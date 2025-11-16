@@ -61,8 +61,6 @@ Datasets for recognizing driving and other human activities via smartphone senso
 - **Description:** Smartphone sensors (accelerometer, gyroscope, GPS) for driver behavior classification
 - **Format:** ML-ready for behavior classification
 - **Use Case:** ML model training for driving behavior classification
-
-
 ---
 
 ## Summary Table
