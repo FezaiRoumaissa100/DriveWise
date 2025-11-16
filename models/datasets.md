@@ -68,33 +68,16 @@ See: `activity-recognition/datasets.md` for detailed info.
 
 ## Summary Table
 
+**Note:** This table lists datasets currently under research and evaluation. We are still in the research phase — no model implementation or integration has started yet. These datasets are potential candidates for future development.
+
 | Model | Dataset | Size | Format | Status |
 |-------|---------|------|--------|--------|
-| Traffic Sign Recognition | GTSRB | N/A | Images | ✅ Ready |
-| Driver Behavior | DriverSVT | 600M+ samples | CSV | 📋 Queued |
-| Driver Behavior | UAH-DriveSet | Multi-source | Video + Sensors | 📋 Queued |
-| Driver Behavior | POLIDriving | N/A | Multi-source | 📋 Queued |
-| Activity Recognition | Public Domain Activity | N/A | Sensors + GPS | 📋 Queued |
-| Activity Recognition | Smartphone Behavior | N/A | Sensors + GPS | 📋 Queued |
-
----
-
-## Usage Guidelines
-
-1. **Select Dataset:** Choose dataset based on model type (see folder structure)
-2. **Download:** Follow links to dataset sources
-3. **Prepare:** Preprocess and split data (train/val/test)
-4. **Document:** Update model README with dataset version and preprocessing steps
-5. **Track:** Note any filtering or augmentation applied
-
----
-
-## Next Steps
-
-- Download and explore primary datasets (DriverSVT, UAH-DriveSet for behavior; GTSRB for traffic signs)
-- Evaluate dataset suitability for DriveWise use cases
-- Design preprocessing pipelines
-- Document any licensing / attribution requirements
+| Traffic Sign Recognition | GTSRB | N/A | Images | 📚 Research |
+| Driver Behavior | DriverSVT | 600M+ samples | CSV | 📚 Research |
+| Driver Behavior | UAH-DriveSet | Multi-source | Video + Sensors | 📚 Research |
+| Driver Behavior | POLIDriving | N/A | Multi-source | 📚 Research |
+| Activity Recognition | Public Domain Activity | N/A | Sensors + GPS | 📚 Research |
+| Activity Recognition | Smartphone Behavior | N/A | Sensors + GPS | 📚 Research |
 
 ---
 
