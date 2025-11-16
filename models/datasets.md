@@ -62,7 +62,6 @@ Datasets for recognizing driving and other human activities via smartphone senso
 - **Format:** ML-ready for behavior classification
 - **Use Case:** ML model training for driving behavior classification
 
-See: `activity-recognition/datasets.md` for detailed info.
 
 ---
 
