@@ -2,15 +2,10 @@
 
 This folder contains the hardware artifacts for the DriveWise SmartBox (v0).
 
-## Structure
-
-- `structure/` — photographs and design documentation of the SmartBox structure
-- `assembly/` — CAD files and assembly models (SolidWorks, STEP formats)
-
 ## Contents
 
-### Structure
-Photos and visual documentation of the SmartBox hardware design and physical layout.
+### Architecture
+Photos of the SmartBox hardware design and physical layout v0.
 
 ### Assembly
 CAD assembly files and component models:
