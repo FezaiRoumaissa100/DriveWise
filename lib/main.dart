@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const DriveWiseOnboarding(), // ✅ No title passed → No error
+      home: const DriveWiseOnboarding(), 
     );
   }
 }
