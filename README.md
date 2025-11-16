@@ -1,5 +1,4 @@
 # DriveWise – Smart & Responsible Driving Companion
-
 DriveWise is an intelligent mobile solution designed to enhance road safety, improve driver awareness, and promote eco-friendly driving. The system includes a mobile application connected to a SmartBox installed inside the vehicle. The SmartBox contains a forward-facing camera that observes the driver and analyzes their state in real time.
 
 DriveWise combines driver monitoring, behavior analysis, and contextual alerts to help users adopt safer and more responsible driving habits.
@@ -67,4 +66,3 @@ DriveWise combines driver monitoring, behavior analysis, and contextual alerts t
 - Accessibility: simple guidance for drivers of all profiles
 
 Overall, DriveWise supports a preventive, data-driven approach to safer mobility.
-
