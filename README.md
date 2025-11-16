@@ -1,5 +1,5 @@
 # DriveWise – Smart & Responsible Driving Companion
-DriveWise is an intelligent mobile solution designed to enhance road safety, improve driver awareness, and promote eco-friendly driving. The system includes a mobile application connected to a SmartBox installed inside the vehicle. The SmartBox contains a forward-facing camera that observes the driver and analyzes their state in real time.
+DriveWise is an intelligent mobile solution designed to enhance road safety, improve driver awareness, and promote eco-friendly driving. The system includes a mobile application connected to a SmartBox installed inside the vehicle. The SmartBox contains a forward-facing camera that observes the driver and analyzes their state in real time, and a rear-facing camera that monitors the road environment (for example, traffic signs and road panels) to detect posted speed limits and hazardous patterns — enabling timely notifications to the driver to reduce speed or comply with road rules.
 
 DriveWise combines driver monitoring, behavior analysis, and contextual alerts to help users adopt safer and more responsible driving habits.
 
@@ -7,10 +7,14 @@ DriveWise combines driver monitoring, behavior analysis, and contextual alerts t
 
 - Compact smart device installed in the vehicle.
 - Uses a built-in camera to monitor:
+
+- Uses a built-in camera to monitor:
 	- fatigue
 	- distraction
 	- focus level and attention
 	- driver actions
+	- road environment (rear-facing camera): detect traffic signs and road panels (e.g., speed limits, warnings) and notify the driver to reduce speed or comply with posted limits
+
 - If a risk is detected, real-time alerts are sent to the mobile application.
 
 ## Driving Behavior Analysis
@@ -22,7 +26,6 @@ DriveWise combines driver monitoring, behavior analysis, and contextual alerts t
 - The app detects:
 	- harsh braking
 	- sudden acceleration
-	- speeding
 	- unsafe turns
 - The driver receives safety alerts and personalized recommendations.
 
@@ -30,7 +33,6 @@ DriveWise combines driver monitoring, behavior analysis, and contextual alerts t
 
 - DriveWise retrieves contextual information through external APIs:
 	- weather conditions
-	- speed limits
 	- recommended routes
 	- environmental impact (CO₂ estimation)
 - This information helps the driver make better decisions on the road.
@@ -56,8 +58,8 @@ DriveWise combines driver monitoring, behavior analysis, and contextual alerts t
 
 - Interpret the driver’s state through the SmartBox camera
 - Classify driver behaviors
-- Detect distraction, fatigue, and law-compliance events
 - Analyze driving patterns and risk indicators
+- Recognize road signs and panels using a traffic-sign recognition model to alert the driver to respect posted speed limits and other traffic rules
 
 ## RSE Impact
 
